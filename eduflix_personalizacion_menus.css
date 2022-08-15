@@ -1,0 +1,32 @@
+/* Login Page Logo*/
+.imgLogoIcon {
+content: url(https://earmas.ga/eduflix_logo.png) !important; }
+
+/* Main Drawer Mobile Logo*/
+.adminDrawerLogo img {
+content: url(https://earmas.ga/eduflix_logo.png) !important; }
+
+/* Home Page Logo*/
+.pageTitleWithLogo {
+background-image: url(https://earmas.ga/eduflix_logo.png) !important; }
+
+/* Personalizacion menus*/
+.headerCastButton { display: none; }
+.headerSyncButton { display: none; }
+.guideChannelNumber { display: none; }
+#homeTab > div > div.section2 > div:nth-child(1) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a > h2 {display: none;}
+#homeTab > div > div.section2 > div:nth-child(1) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a > span {display: none;}
+#homeTab > div > div.section2 > div:nth-child(1) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a:after {
+content: 'Recently Added Movies ›';
+font-size: 24px;
+font-weight: normal;
+}
+#homeTab{
+  overflow-x: hidden;
+  white-space: nowrap;
+}
+/* Zoom aplicado
+body{
+  zoom:100%
+}
+*/
